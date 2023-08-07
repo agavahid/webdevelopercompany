@@ -64,6 +64,7 @@
     width: 80%;
     background-color: #532bc4;
     border-radius: 9px;
+    padding: 0px 0 0 40px;
 }
 .portofiloBottom.active{
     background-color: #221645;
@@ -103,6 +104,7 @@
     .portofiloContainer{
         
     }
+    .portofiloBottom{padding: 0;}
     .portofiloBottom.active{
         padding: 0;
     }
