@@ -1,0 +1,9 @@
+.mainH1Center{
+    text-align: center;
+    color: #3a3a3a;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.mainH1Center.active{
+    color: #fff;
+}

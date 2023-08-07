@@ -1,0 +1,54 @@
+.headerNavBarNavigatior{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerNavBarNavigatiorItemLink{
+    color: #3a3a3a;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.headerNavBarContainer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.headerNavBarLogo{
+    color: #3a3a3a;
+    font-size: 20px;
+    font-family: cursive;  
+}
+.turnLightsOff{
+    width: 24px;
+    height: 24px;
+}
+.headerNavBarMobileIcon{
+    display: none;
+}
+@media screen and (max-width: 1168px) {
+    .headerNavBarMobileIcon{
+        display: block;
+        width: 44px;
+        height: 44px;
+    }
+    .headerNavBarNavigatior.deactive{
+        display: none;
+    }
+    .headerNavBarRightContainer{
+        position: relative;
+    }
+    .headerNavBarNavigatiorContainer{
+        position: absolute;
+    }
+    .headerNavBarNavigatior{    
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .headerNavBarNavigatiorItem{
+        padding: 10px 0;
+    }
+}

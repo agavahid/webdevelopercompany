@@ -1,0 +1,11 @@
+.mainLayout.active{
+    background-color: #0d022c;
+}
+.mainLayout{
+    background-color: #fff;
+}
+@media screen and (max-width: 768px) {
+    .lyt{
+        display: none;
+    }
+}

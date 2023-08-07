@@ -1,0 +1,114 @@
+.servicesHeader h2, .servicesHeader p{
+    text-align: center;
+    color: #3a3a3a;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.servicesHeader p{
+    opacity: 0.8;
+    font-weight: 400;
+}
+.servicesContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+}
+.servicesContent{
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    padding: 90px 51px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 7px;
+}
+.servicesContent.active{
+    box-shadow: #0074f3 0px 1px 31px;
+}
+.servicesViewMore{
+    cursor: pointer;
+    color: rgb(32 87 235);
+}
+.servicesContentImg{
+    width: 35px;
+    height: 35px;
+}
+.serviceCloseIcon, .servicesDoneIcon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.serviceSubmenuHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.serviceSubmenuHeader h2{
+    color: #3a3a3a;
+    font-weight: 600;
+}
+.servicesContentShadow.active{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(74, 67, 67, 0.4);
+}
+.servicesContentSubmenu{
+    display: none;
+}
+.servicesContentSubmenu.active{
+    margin: auto;
+    height: 40%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index:333;
+}
+.serviceSubmenuList{
+    padding: 0;
+    list-style: none;
+}
+.serviceSubmenuListItem{
+    padding: 7px;
+}
+.serviceSubmenuListItem span{
+    color: rgb(32 87 235);
+}
+.servicesDoneIcon{
+    float: left;
+    margin-right: 5px;
+}
+.servicesContentHeader{
+    display: flex;
+    align-items: center;
+}
+.servicesContentHeader>img{
+    margin-right: 8px;
+}
+
+
+@media screen and (max-width: 1168px) {
+    .servicesContainer{
+        flex-direction: column;
+    }
+    .servicesHeader{
+        margin: 80px 0;
+    }
+    .servicesContent{
+        width: 40%;
+        margin: 60px 0;
+    }
+    .servicesContentSubmenu.active{
+        width: 70%;
+    }
+}

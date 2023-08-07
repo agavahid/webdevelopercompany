@@ -1,0 +1,135 @@
+.portofiloHeader{
+    margin-bottom: 40px;
+}
+.portofiloHeader h1, .portofiloHeader p{
+    text-align: center;
+    color: #3a3a3a;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.portofiloHeader p{
+    opacity: 0.8;
+}
+.portofiloItemContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+.portofiloMainImg{
+    width: 240px;
+    height: 200px;
+    border-radius: 6px;
+}
+.portofiloItemRight{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.portofiloItemRight>h2{
+    color: #3a3a3a;
+    font-weight: 600;
+    margin: 0;
+}
+.portofiloItemRight>span{
+    text-align: start;
+    width: 260px;
+    opacity: 0.8;
+    color: #3a3a3a;
+    font-weight: 400;
+    margin: 20px 0;
+}
+.portofiloLinkItem{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background: #532bc4;
+    padding: 12px 20px;
+    border-radius: 6px;
+    width: 80px;
+}
+.portofiloLinkItem>span{
+    color: #fff;
+}
+.portofiloLinkItem>img{
+    width: 30px;
+    height: 20px;
+    margin-left: 10px;
+}
+.portofiloBottom{
+    margin: 100px auto;
+    width: 80%;
+    background-color: #532bc4;
+    border-radius: 9px;
+    padding: 0px 0 0 40px;
+}
+.portofiloBottom.active{
+    background-color: #221645;
+}
+.portofiloBottomItemContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portofiloBottomLeft h1, .portofiloBottomLeft p{
+    color: #fff;
+    font-weight: 600;
+}
+.portofiloBottomLeft p{
+    font-weight: 400;
+    width: 250px;
+}
+.portofiloContactLink{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 12px 19px;
+    width: 106px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: #532bc4;
+}
+.doubleRightIcon{
+    width: 24px;
+    height: 24px;
+}
+.portofiloPageImg{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+@media screen and (max-width: 1168px) {
+    .portofiloContainer{
+        
+    }
+    .portofiloBottom.active{
+        padding: 0;
+    }
+    .portofiloItemContainer{
+        flex-direction: column;
+    }
+    .portofiloItemRight a{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .portofiloItemRight h1, .portofiloItemRight span{
+        text-align: center;
+    }
+    .portofiloBottomLeft{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 21px;
+    }
+    .portofiloBottomItemContainer{
+        flex-direction: column-reverse;
+    }
+    .portofiloPageImg{
+        width: 100%;
+    }
+}

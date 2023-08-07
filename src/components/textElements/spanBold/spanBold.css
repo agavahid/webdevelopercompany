@@ -1,0 +1,9 @@
+.spanBold{
+    font-size: 21px;
+    text-align: center;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+.spanBold.active{
+    color: #fff;
+}

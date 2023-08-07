@@ -1,0 +1,9 @@
+.mainPRegular{
+    color: #3a3a3a;
+    margin: 20px 0;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.mainPRegular.active{
+    color: #fff;
+}

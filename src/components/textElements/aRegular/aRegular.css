@@ -1,0 +1,10 @@
+.mainARegular{
+    color: #3a3a3a;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.mainARegular.active{
+    color: #fff;
+}

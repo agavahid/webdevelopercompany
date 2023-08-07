@@ -1,0 +1,126 @@
+.skillsContainer{
+    margin: 200px 0 140px 0;
+}
+.skillsBody, .skillsBodyItemHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.skillsBody{
+    align-items: flex-start;
+}
+.skillsBodyItem{
+    width: 50%;
+}
+.skillsBodyItemHeader, .skillsBodyItemSubmenu{
+    width: 60%;
+}
+.skillsHeader{
+    margin: 0 0 100px 0; 
+}
+.skillsHeaderH, .skillsHeaderP{
+    text-align: center;
+    color: #3a3a3a;
+    margin: 12px 0;
+}
+.skillsHeaderP{
+    opacity: 0.8;
+}
+.skillsBodyItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillsBodyItemMiddleTop>h1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+.skillsBodyItemMiddleBottom{
+    opacity: 0.8;
+    font-size: 15px;
+}
+.bracketsIcon{
+    width: 30px;
+    height: 30px;
+}
+.skillsCardArrow{
+    width: 24px;
+    height: 24px;
+    transition: .4s ease-in-out;
+}
+.skillsCardArrow.active{
+    transform: rotate(180deg);
+}
+.skillsBodyItemSubmenu ul{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.lineContainer{
+    padding: 10px 0;
+}
+.lineBottom{
+    width: 100%;
+    height: 4px;
+    border-radius: 7px;
+    background-color: gray;
+    position: relative;
+}
+.lineBottom100, .lineBottom80, .lineBottom70, .lineBottom75{
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 4px;
+}
+
+.lineBottom100{
+    width: 100%;
+}
+.lineBottom50{
+    width: 50%;
+}
+.lineBottom60{
+    width: 60%;
+}
+.lineBottom80{
+    width: 80%;
+}
+.lineBottom70{
+    width: 70%;
+}
+.lineBottom75{
+    width: 75%;
+}
+.skillsBodyItemSubmenu{
+    transition: 0.7s;
+    opacity: 0;
+    height: 0;
+}
+.skillsBodyItemSubmenu.active{
+    height: auto;
+    opacity: 1;
+}
+.lineTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lineTopLeft>h1{
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1168px) {
+    .skillsContainer{
+        margin: 0;
+    }
+    .skillsBody{
+        flex-direction: column;
+    }
+    .skillsBodyItem{
+        width: 100%;
+    }
+}

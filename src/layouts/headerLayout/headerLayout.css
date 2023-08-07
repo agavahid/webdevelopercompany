@@ -1,0 +1,14 @@
+.headerLayout{
+    width: 1100px;
+    margin: 0 auto;
+    border-bottom: 1px solid #a3a3a3;
+    position: fixed;
+    left: 11%;
+    z-index: 4444;
+}
+@media screen and (max-width: 1168px) {
+    .headerLayout{
+        width: 80%;
+        
+    }
+}

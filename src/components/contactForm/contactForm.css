@@ -1,0 +1,84 @@
+.contactFormContainer{
+    display: flex;
+    flex-direction: column;
+}
+.formItem{
+    position: relative;
+}
+.formItemSpan{
+    position: absolute;
+    left: 14px;
+    top: 3px;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.formItemsTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.formItemInputNormal, .formItemInputSmall, .formItemInputLarge{
+    border: none;
+    outline: none;
+    background-color: #cce7ee;
+    width: 193px;
+    height: 40px;
+    padding: 15px 35px;
+    border-radius: 7px;
+    margin: 0 20px 20px 0;
+}
+.formItemInputSmall{
+    width: 222px;
+}
+.formItemInputNormal{
+    padding: 20px 33px;
+    width: 539px;
+}
+.formItemInputLarge{
+    height: 200px;
+    width: 534px;
+    padding: 32px 35px;
+}
+.formSubmitInput{
+    background-color: #532bc4;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+.formSubmitRightArrow{
+    width: 24px;
+}
+.formItemSubmit{
+    position: relative;
+    width: 150px;
+    background-color: #532bc4;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+}
+@media screen and (max-width: 1168px) {
+    .formItemsTop{
+        flex-direction: column;
+    }
+    .formItemInputNormal, .formItemInputLarge{
+        width: 92%;
+    }
+    .formItemInputNormal, .formItemInputSmall, .formItemInputLarge{
+        margin: 4px 0 auto
+    }
+    .formItem{
+        display: flex;
+        justify-content: center;
+    }
+    .formItemBottom{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .formItemSubmit{
+        width: 90%;
+        margin: 10px auto;
+    }
+}

@@ -1,0 +1,8 @@
+.mainh1Regular{
+    color: #3a3a3a;
+    font-weight: 600;
+    margin: 8px 0;
+}
+.mainh1Regular.active{
+    color: #fff;
+}

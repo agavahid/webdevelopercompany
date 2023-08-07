@@ -1,0 +1,11 @@
+.mainh1Cursive{
+    text-align: center;
+    color: #3a3a3a;
+    font-weight: 600;
+    margin: 8px 0;
+    font-family: cursive;
+    font-size: 20px;
+}
+.mainh1Cursive.active{
+    color: #fff;
+}

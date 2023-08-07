@@ -1,0 +1,83 @@
+.homeSectionContainer{
+    margin: 0 0 200px 0;
+    padding-top: 200px;
+}
+.homeSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.homeSectionNav{
+    display: flex;
+    flex-direction: column;
+}
+.homeSectionNavItem{
+    width: 20px;
+    height: 20px;
+    padding: 10px 0;
+}
+.homeSectionText{
+    max-width: 340px;
+}
+.homeSectionText h1{
+    font-size: 33px;
+    font-weight: 500;
+    margin: 0;
+}
+.homeSectionText p{
+    font-size: 20px;
+}
+.developerDescriptions{
+    color: #3a3a3a;
+    margin: 20px 0;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.developerDescriptions.addition{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.myPageImage{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: 250px;
+    object-fit: cover;
+}
+.contactMeButton{
+    background-color: #532bc4;
+    padding: 16px 22px;
+    color: #fff;
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contactMeImg{
+    width: 24px;
+    height: 24px;
+    float: right;
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 1168px) {
+    .homeSectionContainer, .myPageImage{
+        margin: 0;
+        padding: 0;
+    }
+    .homeSection{
+        flex-direction: column-reverse;
+    }
+    .homeSectionNav{
+        flex-direction: initial;
+        margin: 20px 0;
+    }
+    .homeSectionNav a{
+        margin-right: 10px;
+    }
+    .homeSectionText{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,44 @@
+.contactHeader>p, .contactHeader>h2{
+    margin: 10px;
+    font-weight: 600;
+    color: #3a3a3a;
+    text-align: center;
+}
+.contactHeader>p{
+    opacity: 0.8;
+}
+.contactBody{
+    margin-top: 75px;
+}
+.contactBodyLeftContentIcon img{
+    width: 24px;
+    height: 24px;
+}
+.contactBody{
+    display: flex;
+    justify-content: space-between;
+}
+.contactBodyLeftContent{
+    display: flex;
+    align-items: center;
+    line-height: 0.7;
+}
+.contactBodyLeftContentDescription{
+    margin-left: 15px;
+}
+.contactBodyLeftContentDescription h1{
+    font-weight: 500;
+    color: #3a3a3a;
+}
+.contactBodyLeftContentDescription p{
+    opacity: 0.8;
+    font-size: 13.5px;
+}
+@media screen and (max-width: 1168px) {
+    .contactBody{
+        flex-direction: column;
+    }
+    .contactBodyLeft{
+        margin: 0 auto;
+    }
+}
